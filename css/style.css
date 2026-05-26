@@ -208,3 +208,75 @@ hr {
 .btn-gold:active {
   transform: scale(0.98);
 }
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer-dark {
+  background:
+    linear-gradient(to right, #050505, #111111);
+
+  border-top: 1px solid rgba(255,215,0,0.15);
+
+  color: white;
+}
+
+.footer-title {
+  color: #FFD700;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer-subtitle {
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  color: #cfcfcf;
+  line-height: 1.8;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #cfcfcf;
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #FFD700;
+  padding-left: 5px;
+}
+
+.footer-line {
+  border-color: rgba(255,255,255,0.08);
+}
+
+.footer-copy {
+  color: #999;
+  font-size: 0.95rem;
+}
+
+
+.footer-credit {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.footer-credit:hover {
+  color: white;
+}
