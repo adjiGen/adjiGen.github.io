@@ -1,0 +1,210 @@
+body {
+  background: linear-gradient(to bottom right, #0f0f0f, #1c1c1c, #ffffff);
+  font-family: Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0,0,0,0.9) !important;
+  border-bottom: 1px solid rgba(255,215,0,0.2);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #FFD700 !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+/* Hero */
+.hero{
+  position: relative;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url("../assets/img/tes.jpg");
+    height: 400px;
+
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Profile Card */
+.profile-card {
+  margin-top: -70px;
+  border-radius: 25px;
+  overflow: hidden;
+
+  border: 1px solid rgba(255,215,0,0.2);
+
+  background: rgba(20,20,20,0.95);
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+
+  color: white;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 160px;
+  height: 160px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 5px solid #FFD700;
+
+  margin-top: -80px;
+
+  background: white;
+
+  box-shadow: 0 0 25px rgba(255,215,0,0.4);
+}
+
+h2 {
+  color: #FFD700;
+  font-weight: bold;
+}
+
+h4 {
+  color: #FFD700;
+  margin-bottom: 15px;
+}
+
+hr {
+  border-color: rgba(255,255,255,0.1);
+}
+
+/* Skill Badge */
+.skill-badge {
+  margin: 5px;
+  padding: 10px 14px;
+
+  border-radius: 30px;
+
+  background: #FFD700;
+  color: black;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.skill-badge:hover {
+  background: white;
+  transform: scale(1.05);
+}
+
+/* List */
+.list-group-item {
+  background: rgba(255,255,255,0.05);
+  color: white;
+
+  border: 1px solid rgba(255,255,255,0.05);
+
+  margin-bottom: 10px;
+
+  border-radius: 10px !important;
+}
+
+/* Button Gold */
+.btn-gold {
+  background: #FFD700;
+  color: black;
+
+  border: none;
+
+  padding: 12px 24px;
+
+  border-radius: 30px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background: white;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 5px 15px rgba(255,215,0,0.4);
+}
+
+/* Contact */
+.contact-box {
+  background: rgba(255,255,255,0.05);
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  border: 1px solid rgba(255,215,0,0.15);
+}
+
+.text-muted {
+  color: #cfcfcf !important;
+}
+
+
+
+/* Button Elegant Gold Dark */
+.btn-gold {
+  background: linear-gradient(135deg, #8B6508, #D4AF37, #6E4F00);
+
+  color: white;
+
+  border: 1px solid rgba(255, 215, 0, 0.4);
+
+  padding: 12px 28px;
+
+  border-radius: 40px;
+
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  transition: all 0.3s ease;
+
+  box-shadow:
+    0 4px 15px rgba(0,0,0,0.4),
+    0 0 10px rgba(255,215,0,0.15);
+
+  text-transform: uppercase;
+}
+
+/* Hover */
+.btn-gold:hover {
+  background: linear-gradient(135deg, #A67C00, #FFD700, #7A5901);
+
+  color: white;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(0,0,0,0.5),
+    0 0 18px rgba(255,215,0,0.35);
+}
+
+/* Click Effect */
+.btn-gold:active {
+  transform: scale(0.98);
+}
