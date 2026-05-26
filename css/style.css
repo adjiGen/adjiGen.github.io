@@ -5,6 +5,32 @@ body {
   min-height: 100vh;
 }
 
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  color: #FFD700;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-title p {
+  color: #cfcfcf;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.section-space {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* padding: 80px 0 !important; */
+}
+
 /* Navbar */
 .navbar {
   background: rgba(0,0,0,0.9) !important;
@@ -28,7 +54,8 @@ body {
 
   background-image:
     linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url("../assets/img/tes.jpg");
+    /* url("../assets/img/tes.jpg"); */
+    url("../assets/img/bc_hero.jpg");
     height: 400px;
 
 
@@ -48,7 +75,7 @@ body {
 
 /* Profile Card */
 .profile-card {
-  margin-top: -70px;
+  margin-top: 30px;
   border-radius: 25px;
   overflow: hidden;
 
@@ -65,20 +92,21 @@ body {
 
 /* Profile Image */
 .profile-img {
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
 
   object-fit: cover;
 
   border-radius: 50%;
-  border: 5px solid #FFD700;
+  border: 5px solid white;
 
-  margin-top: -80px;
+  margin-top: 0px;
 
   background: white;
 
-  box-shadow: 0 0 25px rgba(255,215,0,0.4);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
+
 
 h2 {
   color: #FFD700;
@@ -92,6 +120,13 @@ h4 {
 
 hr {
   border-color: rgba(255,255,255,0.1);
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
 }
 
 /* Skill Badge */
